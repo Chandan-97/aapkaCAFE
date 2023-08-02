@@ -4,3 +4,10 @@
     box-sizing: border-box;
    
 }
+
+.abcd {
+    text-align: right;
+    align-items: right;   
+    padding-left: 25%;
+
+}
