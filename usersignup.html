@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/maincontent.css">
+    <link rel="stylesheet" href="./style/userstyle.css">
 
     <title>appkaCA</title>
   </head>
@@ -23,70 +24,67 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">            
           </ul>
-          <span class="navbar-text mr-5">
-            <div class="dropdown">
-              <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Login/Signup
-              </button>
-              <div class="dropdown-menu mt-3 border border-info" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item border border-white text-center" href="#"><i class="fa fa-user" aria-hidden="true"></i>  CA</a>
-                <hr class="border border-info">
-                <a class="dropdown-item border border-white text-center" href="./userlogin.html"><i class="fa fa-user-o" aria-hidden="true"></i>  USER</a>          
-              </div>
-            </div>
+          <span class="navbar-text mr-5">           
+              <button class="btn btn-outline-secondary userbtn" type="button">
+                <i class="fa fa-user-o" aria-hidden="true"></i> User
+              </button>           
           </span>
         </div>
       </nav>
       <hr class="my-4">
     <!-- end navbar -->
 
-    <!-- main start -->
-    <main>   
-        <h5 class="text-center">India's Largest CA Professionals Network which helps to solve all your business needs related to finance and accounts quickly.</h5>
+    <!-- start form -->
+    <h2 class="text-center">Sign up</h2>
+    <div class="mx-auto formcenter mt-3">
+      <form>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email"  class="form-control" id="staticEmail" required>
+          </div>
+        </div>
 
-        <div class="container-fluid mt-5 text-center">
-            <div class="row">
-              <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                1000+CAs present on our platform
-              </div>
-              <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                3000+ Happy Customers
-              </div>
-              <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                30+  Business Services Available
-              </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" required>
+          </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Mobile</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputPassword" required>
             </div>
-        </div>   
-          <h5 class="text-center mt-5">Benefits for CAs on our platform -</h5>
+        </div>
 
-      <div class="container-fluid mt-5">
-        <p>Build your digital brand presence
-          <br>
-          Get your micro website, share it with your prospects, and do conversions
-          <br>
-          Build your digital brand presence
-        </p>   
-      </div>
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Location</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputPassword" required>
+            </div>
+        </div>
 
-      <h5 class="text-center mt-5">Benefits for Users on our platform -</h5>
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Location</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputPassword" required>
+            </div>
+        </div>
 
-      <div class="container-fluid mt-5 mb-5">
-        <p>Search CA according to your business stages such as Introduction, Growth, and Maturity
-          <br>
-          Search CA according to your business domain such as Manufacturing, Wholesale, Retail, Export/Import, and many more
-          <br>
-          Whether you are a Startup/MSME, we have CAs according to your business need
-          <br>
-          Whether you are looking to start business or want to grow business, we have CAs according to your business need 
-          <br>
-          Search CAs according to your business stages such as introduction, Growth and Maturity
-        </p>   
-      </div>                   
-     </main>
-    <!-- main end -->
+        <div class="text-center">
+          <button type="button" class="btn btn-primary">Login</button>
+          <button type="button" class="btn btn-primary">Signup</button>
+        </div>     
+      </form>
+    </div>
+    <!-- end form  -->
+    
 
-   <!-- start footer -->
-   <footer class="mt-5 text-center fixed-bottom bg-white">
+  
+ <!-- start footer -->
+ <footer class="mt-5 text-center fixed-bottom bg-white">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
@@ -104,6 +102,9 @@
       </div>  
     </div>
   </footer> 
+  <!-- end footer -->  
+      <!-- end footer -->
+   
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
